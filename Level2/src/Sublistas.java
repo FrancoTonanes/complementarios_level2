@@ -14,17 +14,16 @@ public class Sublistas {
             nombres.add(i);
         }
 
-        System.out.println(nombres);
+        System.out.println("Lista completa: " + nombres);
 
-        System.out.println("Se divide la lista en sublistas");
+        System.out.println("Se divide la lista en sublistas:");
 
         List<String> nombres1 = nombres.subList(0, 4);
         List<String> nombres2 = nombres.subList(4, 8);
         List<String> nombres3 = nombres.subList(8, 12);
-        System.out.println(nombres1);
-        System.out.println(nombres2);
-        System.out.println(nombres3);
-
+        System.out.println("Sublista 1: " + nombres1);
+        System.out.println("Sublista 2: " + nombres2);
+        System.out.println("Sublista 3: " + nombres3);
         
         
     }
